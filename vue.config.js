@@ -5,7 +5,7 @@ module.exports = {
       proxy: {
         "/todoApi": {
           ws: false,
-          target: "http://127.0.0.1:8000",
+          target: "http://192.168.137.144:8000",
           changeOrigin: true,
           pathRewrite: {
             "^/todoApi": "/"

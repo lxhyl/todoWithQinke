@@ -6,3 +6,11 @@ export function createAccount(data){
        data
    })
 }
+
+export function login(data){
+    return request({
+        url:'/account/login',
+        method:'POST',
+        data
+    })
+}
