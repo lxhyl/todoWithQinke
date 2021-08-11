@@ -29,3 +29,10 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 * url:`account/create`.   
 * method:`post`.  
 * data: {account:账号,sha1:`账号-密码` 使用sha1加密}
+
+
+## 登陆
+* url `/account/login`.  
+* method `post`. 
+* data:{account:账号,sha1:`账号-密码` 使用sha1加密}.  
+* res:用户信息
